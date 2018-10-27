@@ -9,15 +9,20 @@
 		<link rel ="stylesheet" type = "text/css" href = "style.css">
 		
 		<!--HTML5 Shiv -->
-		<script src = "js/html5shiv.js"></script>
+		<script src = "js/main.js"></script>
 	</head>
 	
 		<body>
 			<div class = "header">
-				<ul>
-					<li style = "color:white">Sign In</li>
-					<li style = "color:white">Sign Up</li>
-					<li style = "color:white">View Cart</li>
+					<ul>
+					<li style = "color:white">SIGN IN</li>
+					<li style = "color:white">SIGN UP</li>
+					<a href = "shoppingcart.html">
+					<li style = "color:white" text-decoration:none>VIEW CART</li> </a>
+					<li> <a href = "shoppingcart.html">
+					<img src="images/cart.png"></a>
+					<div id = "cartnumber"></div>
+					</li>
 				</ul>
 				
 			</div>
@@ -28,7 +33,7 @@
 				<div class="container">
 					<div id = "branding">
 					<a href = "index.html">
-					<h1><span class = "highlight"><img src = "images/bun bun logo.png" style = "float:left; width: 80px; height: 70px; padding-left:15px;"> </h1>
+					<h1><span class = "highlight"><img src = "images/bun bun logo.png" style = "float:left; width: 95px; height: 70px; padding-left:15px;"> </h1>
 					</a>
 					</div>
 							
@@ -53,23 +58,23 @@
 			
 			<div class = "gallery">
 				<a target= "" href = "detail.html">
-				<img src = "images/image1.png" width="300" height="300">
+				<img src = "images/detailnone.png" width="300" height="300">
 				</a>
-				<div class = "desc">Original Cinnamon $5.0 </div>
+				<div class = "desc">Original Cinnamon $5.0</div>
 			</div>
 			
 			<div class = "gallery">
 				<a target= "" href = "detail2.html">
 				<img src = "images/image2.png" width="300" height="300">
 				</a>
-				<div class = "desc">Original(Gluten Free) $5.5 </div>
+				<div class = "desc">Original(Gluten Free) $5.5</div>
 			</div>
 			
 			<div class = "gallery">
 				<a target= "" href = "detail3.html">
 				<img src = "images/image3.png" width="300" height="300">
 				</a>
-				<div class = "desc">Blueberry Cinnamon $6.0 </div>
+				<div class = "desc">Blueberry Cinnamon $6.0</div>
 			</div>
 
 			
@@ -78,23 +83,36 @@
 				<a target= "" href = "detail4.html">
 				<img src = "images/image4.png" width="300" height="300">
 				</a>
-				<div class = "desc">Pumpkin Spice $6.0 </div>
+				<div class = "desc">Pumpkin Spice $6.0</div>
 			</div>
 			
 			<div class = "gallery">
 				<a target= "" href = "">
 				<img src = "images/image5.png" width="300" height="300">
 				</a>
-				<div class = "desc">Caramel Pecan $6.0 </div>
+				<div class = "desc">Caramel Pecan $6.0</div>
 			</div>
 			
 			<div class = "gallery">
 				<a target= "" href = "">
 				<img src = "images/image6.png" width="300" height="300">
 				</a>
-				<div class = "desc">Walnut Cinnamon $6.0 </div>
+				<div class = "desc">Walnut Cinnamon $6.0</div>
 			</div>
 
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+			<div class = "footer">
+			<p>Bun Bun Bakery Shop Copyright © 2018 Bakery Inc. All rights reserved</p>
+		</div>
+
+
+
+			<script>
+				cartTotal();
+			</script>
+
+	
 		
 		
 		</body>
